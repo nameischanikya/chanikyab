@@ -53,8 +53,9 @@ body {
 	display: flex; 
 	justify-content: space-between; 
 	align-items: center; 
-	padding: 40px;
+	padding : 40px 0;
 	color: #03045E;
+	width: 100%;
 }
 .logo {
     font-size: 24px;
@@ -76,13 +77,38 @@ ul li a {
 .header p {
 	font-size: 28px
 }
-.header h1 {
-	font-size: 100px
-}
 .container{
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 40px;
+}
+.header .container {
+	align-items: center; 
+	display: flex;
+}
+.header {
+	padding-top: 120px;
+}
+.heaerText {
+	width: 60%;
+}
+.heaerText h1 {
+	font-weight: 800;
+	margin: 3px 0 6px 0;
+	font-size: 90px
+}
+.header .container img {
+	width: 40%;
+}
+button {
+	background: transparent;
+	border-color: #474306;
+	border-width: 1PX;
+	border-style: solid;
+	border-radius: 6px;
+	padding: 16px 38px 16px 38px;
+	margin-top: 37px;
 }
 
 
