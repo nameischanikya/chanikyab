@@ -1,18 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -20,87 +88,127 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+	list-style-type: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-body { 
+body {
 	background: #FBF8CC;
 	font-family: 'Poppins', sans-serif;
-    color:#03045E;
+	color: #03045E;
 }
+
+
+
+/* navbar */
+
 .navbar {
-	display: flex; 
-	justify-content: space-between; 
-	align-items: center; 
-	padding : 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
 	color: #03045E;
 	width: 100%;
 }
+
 .logo {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: normal;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: normal;
 }
+
 ul li a {
-	font-size: 18px; 
+	font-size: 18px;
 }
+
 .menu ul {
 	display: flex;
 	gap: 60px;
 }
+
 .links ul {
 	display: flex;
 	gap: 30px;
 }
 
+
+
+
+/* header */
+
 .header p {
 	font-size: 28px
 }
-.container{
+
+.container {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 40px;
 }
+
 .header .container {
-	align-items: center; 
+	align-items: center;
 	display: flex;
 }
+
 .header {
 	padding-top: 120px;
 }
+
 .heaerText {
 	width: 60%;
 }
+
 .heaerText h1 {
 	font-weight: 800;
 	margin: 3px 0 6px 0;
 	font-size: 90px
 }
-.header .container img {
+
+.header img {
 	width: 40%;
 }
+
 button {
 	background: transparent;
 	border-color: #474306;
@@ -112,3 +220,35 @@ button {
 }
 
 
+
+/* section */
+
+.section .container h1 {
+	margin-top: 280px;
+	color: #363636;
+	font-weight: 800;
+	font-size: 100px;
+}
+
+.section .container p {
+	font-size: 24px;
+	margin-top: 30px;
+	line-height: 150%;
+}
+
+.section .container ul {
+	margin: 145px 0 0 20%;
+	list-style-type: disc;
+}
+
+.section .container ul li {
+
+	font-size: 24px;
+	line-height: 183%;
+	margin-top: 80px;
+}
+
+.section .container ul li b {
+	font-weight: bold;
+	display: block;
+}
