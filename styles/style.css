@@ -217,6 +217,11 @@ button {
 	border-radius: 6px;
 	padding: 16px 38px 16px 38px;
 	margin-top: 37px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #F5EE84;
 }
 
 
@@ -251,4 +256,13 @@ button {
 .section .container ul li b {
 	font-weight: bold;
 	display: block;
+}
+
+/* section1*/
+
+.section1 .container h1 {
+	font-size: 100px;
+	font-weight: 800;
+	margin-top: 180px;
+	color: #363636;
 }
