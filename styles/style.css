@@ -353,3 +353,117 @@ button:hover {
 	font-weight: 400;
 	line-height: 24px;
 }
+
+.section-B .container .Freelancing {
+	display: flex;
+	justify-content: space-between;
+	padding: 22px 0 0 25%;
+}
+
+.section-B .container .exp2 {
+	display: flex;
+	gap: 10px;
+	padding: 13px 25% 0 25%;
+}
+
+.section-B .container .exp2 span {
+	border-width: 1PX;
+	border-style: solid;
+	border-radius: 7px;
+	background: #000;
+	color: #F5EE84;
+	display: flex;
+	padding: 8px;
+}
+
+.section-B .container .Portfolio {
+	display: flex;
+	gap: 145px;
+	padding-top: 60px;
+}
+
+.section-B .container .exp3 {
+	display: flex;
+	gap: 10px;
+	padding: 13px 25% 0 25%;
+}
+
+.section-B .container .exp3 span {
+	border-width: 1PX;
+	border-style: solid;
+	border-radius: 7px;
+	background: #000;
+	color: #F5EE84;
+	display: flex;
+	padding: 8px;
+}
+
+.section-B .container .exp-B {
+	padding: 5px 25% 60px 25%;
+}
+
+.section-B .container .Technologies {
+	display: flex;
+	gap: 175px;
+	padding-top: 60px;
+}
+
+.section-B .container .exp4 {
+	display: flex;
+	gap: 10px;
+	padding: 13px 25% 0 25%;
+}
+
+.section-B .container .exp4 span {
+	border-width: 1PX;
+	border-style: solid;
+	border-radius: 7px;
+	background: #000;
+	color: #F5EE84;
+	display: flex;
+	padding: 8px;
+}
+
+.section-B .container .Tools {
+	padding: 20px 25% 0 25%;
+}
+
+.section-B .container .exp5 {
+	display: flex;
+	gap: 10px;
+	padding: 13px 25% 137px 25%;
+}
+
+.section-B .container .exp5 span {
+	border-width: 1PX;
+	border-style: solid;
+	border-radius: 7px;
+	background: #000;
+	color: #F5EE84;
+	display: flex;
+	padding: 8px;
+}
+
+/* footer */
+.footer .container {
+	padding-bottom: 165px;
+}
+
+.footer .container h1 {
+	padding: 140px 0 50px 0;
+	font-size: 100px;
+	font-weight: 800;
+	color: #363636;
+}
+
+.footer .container .section1 {
+	display: flex;
+	justify-content: space-between;
+	gap: 60px;
+}
+
+.footer .container .section1 p {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 44px;
+}
