@@ -85,7 +85,7 @@ video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: none;
 	vertical-align: baseline;
 }
 
@@ -302,15 +302,54 @@ button:hover {
 	display: flex;
 	gap: 10px;
 	justify-content: center;
+	padding-top: 14px;
 }
 
 .contact-links a {
 	border-color: #7C3AED;
 	border-width: 1PX;
 	border-style: solid;
-	border-radius: 6px;
+	border-radius: 22px;
+	padding: 8.531px 17.062px;
+	gap: 4.266px;
+	background: #F6F3FF;
 }
 
-.section-B {
-	padding: 50px 0;
+/* section-B */
+
+.section-B .container .working-experience {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 170px;
+}
+
+.section-B .container {
+	color: #1C1C1C;
+}
+
+.section-B .container .exp1 {
+	display: flex;
+	/* justify-content: center; */
+	gap: 10px;
+	padding: 13px 25% 0 25%;
+}
+
+.section-B .container .exp1 span {
+	border-width: 1PX;
+	border-style: solid;
+	border-radius: 7px;
+	background: #000;
+	color: #F5EE84;
+	display: flex;
+	padding: 8px;
+}
+
+.section-B .container .exp-A ul {
+	padding: 9px 25% 0 25%;
+}
+
+.section-B .container .exp-A ul li {
+	list-style-type: disc;
+	font-weight: 400;
+	line-height: 24px;
 }
